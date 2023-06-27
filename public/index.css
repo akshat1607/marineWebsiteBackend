@@ -1,0 +1,50 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+label{
+  margin-top:2em;
+  margin-left : 2rem;
+} 
+h1{
+  text-align: center;
+}
+input{
+  padding : 0.5rem;
+  border: solid 1px #999;
+  /* margin-top:1rem; */
+  margin-left:3rem;
+  width:350px
+
+}
+
+textarea{
+  min-height: 8em;
+  min-width:60%;
+  padding:0.5rem;
+  border:solid 1px #999;
+  margin-left: 3rem;
+}
+
+button {
+  padding: .5em 1em;
+  border-radius: 6px;
+  background-color: #333;
+  color: #fff;
+  font-family: 'Lato',sans-serif;
+  font-size: .8em;
+  margin-top: 1rem;
+  margin-left : 40%;
+}
+
+.form{
+  background-color: aliceblue;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-top: 5rem;
+  margin-left:22rem;
+  width : 50%;
+  padding-left :2rem 
+}
+td{
+  padding-top: 1rem;
+}

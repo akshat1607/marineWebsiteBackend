@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="/index.css" />
+
+	<title>Image Uploading</title>
+</head>
+
+<body >
+	<div class="form">
+
+	<h1>Upload Products</h1>
+	<form action="/" method="POST" enctype="multipart/form-data">
+		<table>
+		<tr>
+		
+		<td>
+			<label for="name"> Model</label>
+		</td>
+		<td>
+			<input
+				type="text"
+				id="name"
+				placeholder="Name"
+				value=""
+				name="name"
+				required
+			/>
+		</td>
+	</tr>
+	<tr>	
+		<td>
+			<label for="desc"> Description</label>
+		</td>
+		<td>
+			<textarea
+				id="desc"
+				name="desc"
+				value=""
+				rows="2"
+				placeholder="Description"
+				required
+			>
+			</textarea>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<label for="length"> Length</label>
+		</td>	
+		<td>
+			<input
+				type="number"
+				id="length"
+				placeholder="Length"
+				value=""
+				name="length"
+				required
+			/>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<label for="width"> Width</label>
+		</td>
+		<td>
+			<input
+				type="number"
+				id="width"
+				placeholder="Width"
+				value=""
+				name="width"
+				required
+			/>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<label for="length"> Height</label>
+		</td>
+		<td>
+			<input
+				type="number"
+				id="height"
+				placeholder="Height"
+				value=""
+				name="height"
+				required
+			/>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<label for="image"> Image</label>
+		</td>
+		<td>
+			<input type="file" id="image" name="image" value="" required />
+		</td>
+	</tr>	
+	<tr>
+		<td>
+			<label for="password"> Password</label>
+		</td>
+		<td>
+			<input type="password" id="password" name="password" value="" required />
+		</td>
+	</tr>
+	</table>
+	
+	<button type="submit">Submit</button>
+	</form>
+	</div>
+
+	
+	</div>
+</body>
+</html>
